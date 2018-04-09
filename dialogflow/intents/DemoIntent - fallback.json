@@ -1,0 +1,33 @@
+{
+  "id": "2df369d9-28fd-434d-9533-dc611146dc27",
+  "parentId": "b3f5d763-0401-4b4c-943b-026a0a49d761",
+  "rootParentId": "b3f5d763-0401-4b4c-943b-026a0a49d761",
+  "name": "DemoIntent - fallback",
+  "auto": false,
+  "contexts": [
+    "DemoIntent-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DemoIntent.DemoIntent-fallback",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Fallback in case the option was not recognized"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1523105408,
+  "fallbackIntent": true,
+  "events": []
+}

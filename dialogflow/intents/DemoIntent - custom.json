@@ -1,0 +1,37 @@
+{
+  "id": "a4fff95e-17da-473b-b241-cef8fcab109e",
+  "parentId": "b3f5d763-0401-4b4c-943b-026a0a49d761",
+  "rootParentId": "b3f5d763-0401-4b4c-943b-026a0a49d761",
+  "name": "DemoIntent - custom",
+  "auto": true,
+  "contexts": [
+    "DemoIntent-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.demo.option",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Response to an option selection"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1523297998,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "actions_intent_OPTION"
+    }
+  ]
+}
